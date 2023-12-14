@@ -13,6 +13,7 @@ app.get("/", (req, res) => {
     res.render("index.ejs")
 })
 
-app.listen(port, () => {
-    console.log(`Webpage is running on port ${port}`)
+app.listen(port, (err) => {
+    if (err) throw err;
+    console.log(`Page is running on port ${port}`)
 });
