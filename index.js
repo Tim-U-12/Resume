@@ -13,7 +13,7 @@ app.get("/", (req, res) => {
     res.render("index.ejs")
 })
 
-app.get('/projects', (req, res) => {
+app.post('/projects', (req, res) => {
     res.render("projects.ejs")
 })
 
