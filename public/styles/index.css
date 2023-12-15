@@ -3,3 +3,8 @@
     height: 3rem;
     border-radius: 0.75rem;
 }
+
+.custom-toggler {
+    padding: 0.25rem;
+    font-size: 0.75rem;
+}
