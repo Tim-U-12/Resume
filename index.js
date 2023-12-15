@@ -13,6 +13,10 @@ app.get("/", (req, res) => {
     res.render("index.ejs")
 })
 
+app.get('/projects', (req, res) => {
+    res.render("projects.ejs")
+})
+
 app.listen(port, (err) => {
     if (err) throw err;
     console.log(`Page is running on port ${port}`)
